@@ -19,12 +19,10 @@ if (CoureurInscritOuPas === true && majeur === true) {
     console.log('You will race at 9:30 am');
 } else if (CoureurInscritOuPas === true || majeur === true) {
     CoureurInscritOuPas + raceNumber;
-    console.log('You will race at 11:00 am');
-    console.log(raceNumber);
+    console.log('You will race at 11:00 am ' + raceNumber);
 } else if (CoureurInscritOuPas === false && mineur === true) {
     CoureurInscritOuPas + raceNumber;
-    console.log('You will race at 12:30 pm');
-    console.log(raceNumber);
+    console.log('You will race at 12:30 pm ' + raceNumber);
 } else {
     console.log('Go to see the registration desk');
 }
